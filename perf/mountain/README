@@ -1,0 +1,17 @@
+参考： 深入理解计算机系统实验日志（三）——Memory Mountain
+原文链接：https://blog.csdn.net/Niya0515/article/details/109865359
+
+执行命令：
+make 
+./mountain >& output_ucloud.txt
+
+
+
+This directory contains code for generating a memory mountain, as
+described in Computer Systems: A Programmer's Perspective 
+
+clock.{c,h}	- routines for using x86 and Alpha cycle timers
+fcyc2.{c,h}	- routines that estimate the number of cycles required 
+                  by a function f that takes two arguments.
+Makefile	- memory mountain makefile
+mountain.c	- program that generates the memory mountain.
