@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
 	// 定义常变量PI
-	const double PI = 3.14159;
+	const double PI = 3.14159;  // 不可修改
 
     float fR = 19.82;  // 半径
 

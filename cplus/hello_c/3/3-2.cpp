@@ -14,7 +14,10 @@ int main()
 	// 用PI计算周长
 	float fGirth = 2 * PI * fR;
 
+    cout<<"圆的半径为："<<fR <<endl;
     cout<<"圆的面积是："<<fArea<<" 周长是："<<fGirth<<endl;
+    cout<<"pi："<<PI <<endl;
+
     
     return 0;
 }
