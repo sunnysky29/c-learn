@@ -1,6 +1,8 @@
 
 #include <iostream>
 
+static int s_variable = 120;
+
 int multiply(int a, int b) {
     int res= a * b;
     return res;
